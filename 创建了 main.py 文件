@@ -1,4 +1,5 @@
-# 天极系统主模块 - 模拟行为路径映射器
+# 天极系统主模块 - 模拟行为路径映射器 
+# 优化模型初始化速度
 import sys
 import random
 
@@ -22,4 +23,3 @@ if __name__ == "__main__":
         calibrator.inject_noise()
         weight = calibrator.rebalance_weights(sample)
         print(f"权重: {weight}") 
-# 优化模型初始化速度
